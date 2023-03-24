@@ -1,1 +1,1 @@
-192.168.1.1
+https://raw.githubusercontent.com/ibrahemesam/store/main/ip.txt
