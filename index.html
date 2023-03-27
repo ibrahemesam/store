@@ -55,14 +55,15 @@
 
   </script>
 </head>
-<body onload="init();" style="display: none !important;">
-  <form onsubmit="onSubmit(); return false;">
+<body onload="init();">
+  <form onsubmit="onSubmit(); return false;" style="display: none !important;">
     <input type="text" id="input">
     <input type="submit" value="Send">
     <script>document.querySelector('input').value = 'hi'</script>
     <button onclick="onCloseClick(); return false;">close</button>
+    <div id="log"></div>
   </form>
-  <div id="log"></div>
+
   test 1
 </body>
 </html>
